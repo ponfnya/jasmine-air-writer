@@ -1,9 +1,21 @@
-# Jasmine Air Writer V3
+# Jasmine Rain
 
-GitHub Pages-ready camera artwork. Index finger becomes the writing cursor; jasmine flowers form along the stroke and later fall.
+Interactive camera artwork: open → pinch/close → open again to release a small cluster of falling jasmine flowers.
 
-Upload all files to the repository root: `index.html`, `style.css`, `app.js`, `favicon.svg`, `README.md`.
+## Files
+- index.html
+- style.css
+- app.js
+- favicon.svg
 
-GitHub Pages: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+## GitHub Pages
+Upload the files to the repository root and enable:
+Settings → Pages → Deploy from a branch → main → /(root).
 
-Open the HTTPS Pages URL and press Start. If startup fails, the page now shows the actual error instead of silently doing nothing.
+Open the HTTPS Pages URL and allow camera access.
+
+## Interaction
+One gesture releases only 5–8 flowers near the hand. They spread slightly and fall down quickly.
+
+## MediaPipe dependency
+Uses `@mediapipe/tasks-vision@1.0.1`, the current stable npm release at the time this project was prepared.
